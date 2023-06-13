@@ -1,0 +1,95 @@
+.title {
+  text-align: center;
+  color: antiquewhite;
+  font-family: cursive;
+  letter-spacing: 3px;
+  font-size: 3rem;
+  text-shadow: -7px -7px 10px black;
+}
+.title span {
+  color: lightsalmon;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+input {
+  width: 17rem;
+  height: 2rem;
+  margin: 0 0 1rem 0;
+  border: none;
+  background-color: #f2cc9d;
+  box-shadow: 7px 7px 10px black;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.search-btn {
+  width: 10rem;
+  height: 2rem;
+  background-color: antiquewhite;
+  box-shadow: 3px 3px 10px #ffffffbb;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: cursive;
+  cursor: pointer;
+}
+.search-btn:hover {
+  background-color: #413f3f;
+  box-shadow: -2px -2px 10px #ffffffbb;
+  color: white;
+}
+h2 {
+  color: white;
+  font-family: cursive;
+  letter-spacing: 3px;
+  font-size: 2rem;
+  text-decoration: underline;
+}
+h3 {
+  color: #ffffffc2;
+  font-family: cursive;
+  letter-spacing: 3px;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  text-shadow: 3px 3px 3px #0a0438;
+}
+.toggle-btn {
+  background-color: antiquewhite;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.toggle-btn span {
+  font-size: 1.1rem;
+  background-color: antiquewhite;
+}
+.toggle-btn span:hover {
+  font-size: 1.5rem;
+}
+.content {
+  text-align: center;
+}
+.details {
+  text-align: center;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  color: white;
+  text-shadow: 2px 2px 3px black;
+  margin: 0 auto;
+  background-color: #61e8e842;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+th {
+  font-size: 1.5rem;
+  color: black;
+  font-weight: 700;
+  text-shadow: -1px -1px 1px white;
+}
